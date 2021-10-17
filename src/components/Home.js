@@ -1,10 +1,14 @@
 import React from 'react'
+import styled from 'styled-components'
+const Container = styled.div
+`display: flex;
+flex-direction: column;`
 
 const Home = () => {
     return (
-        <div>
-            <h1>home</h1>
-        </div>
+        <Container>
+           
+        </Container>
     )
 }
 
